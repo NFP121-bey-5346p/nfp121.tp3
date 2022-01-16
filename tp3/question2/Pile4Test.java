@@ -4,31 +4,31 @@ package question2;
  * Classe-test Pile4Test.
  * 
  * @author (votre nom)
- * @version (un numÃ©ro de version ou une date)
+ * @version (un numéro de version ou une date)
  * 
- *          Les classes-test sont documentÃ©es ici :
+ *          Les classes-test sont documentées ici :
  *          http://junit.sourceforge.net/javadoc/junit/framework/TestCase.html
- *          et sont basÃ©es sur le document Â© 2002 Robert A. Ballance intitulÃ©
- *          Â«JUnit: Unit Testing FrameworkÂ».
+ *          et sont basées sur le document © 2002 Robert A. Ballance intitulé
+ *          «JUnit: Unit Testing Framework».
  * 
- *          Les objets Test (et TestSuite) sont associÃ©s aux classes Ã  tester
+ *          Les objets Test (et TestSuite) sont associés aux classes à tester
  *          par la simple relation yyyTest (e.g. qu'un Test de la classe
  *          Name.java se nommera NameTest.java); les deux se retrouvent dans le
- *          mÃªme paquetage. Les "engagements" (anglais : "fixture") forment un
- *          ensemble de conditions qui sont vraies pour chaque mÃ©thode Test Ã 
- *          exÃ©cuter. Il peut y avoir plus d'une mÃ©thode Test dans une classe
- *          Test; leur ensemble forme un objet TestSuite. BlueJ dÃ©couvrira
- *          automatiquement (par introspection) les mÃ©thodes Test de votre
- *          classe Test et gÃ©nÃ©rera la TestSuite consÃ©quente. Chaque appel d'une
- *          mÃ©thode Test sera prÃ©cÃ©dÃ© d'un appel de setUp(), qui rÃ©alise les
- *          engagements, et suivi d'un appel Ã  tearDown(), qui les dÃ©truit.
+ *          même paquetage. Les "engagements" (anglais : "fixture") forment un
+ *          ensemble de conditions qui sont vraies pour chaque méthode Test à
+ *          exécuter. Il peut y avoir plus d'une méthode Test dans une classe
+ *          Test; leur ensemble forme un objet TestSuite. BlueJ découvrira
+ *          automatiquement (par introspection) les méthodes Test de votre
+ *          classe Test et générera la TestSuite conséquente. Chaque appel d'une
+ *          méthode Test sera précédé d'un appel de setUp(), qui réalise les
+ *          engagements, et suivi d'un appel à tearDown(), qui les détruit.
  */
 public class Pile4Test extends junit.framework.TestCase {
-	// DÃ©finissez ici les variables d'instance nÃ©cessaires Ã  vos engagements;
-	// Vous pouvez Ã©galement les saisir automatiquement du prÃ©sentoir
-	// Ã  l'aide du menu contextuel "PrÃ©sentoir --> Engagements".
+	// Définissez ici les variables d'instance nécessaires à vos engagements;
+	// Vous pouvez également les saisir automatiquement du présentoir
+	// à l'aide du menu contextuel "Présentoir --> Engagements".
 	// Notez cependant que ce dernier ne peut saisir les objets primitifs
-	// du prÃ©sentoir (les objets sans constructeur, comme int, float, etc.).
+	// du présentoir (les objets sans constructeur, comme int, float, etc.).
 
 	/**
 	 * Constructeur de la classe-test Pile4Test
@@ -39,7 +39,7 @@ public class Pile4Test extends junit.framework.TestCase {
 	/**
 	 * Met en place les engagements.
 	 * 
-	 * MÃ©thode appelÃ©e avant chaque appel de mÃ©thode de test.
+	 * Méthode appelée avant chaque appel de méthode de test.
 	 */
 	protected void setUp() // throws java.lang.Exception
 	{
@@ -50,11 +50,11 @@ public class Pile4Test extends junit.framework.TestCase {
 	/**
 	 * Supprime les engagements
 	 * 
-	 * MÃ©thode appelÃ©e aprÃ¨s chaque appel de mÃ©thode de test.
+	 * Méthode appelée après chaque appel de méthode de test.
 	 */
 	protected void tearDown() // throws java.lang.Exception
 	{
-		// LibÃ©rez ici les ressources engagÃ©es par setUp()
+		// Libérez ici les ressources engagées par setUp()
 	}
 
 }
